@@ -1,7 +1,42 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx --yes create-next-app@latest . --ts --tailwind --app --eslint --src-dir false --import-alias \"@/*\" --use-npm --no-turbopack --yes)"
+      "Bash(npx --yes create-next-app@latest . --ts --tailwind --app --eslint --src-dir false --import-alias \"@/*\" --use-npm --no-turbopack --yes)",
+      "Bash(gh repo:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(npx -y skills add https://github.com/Leonxlnx/taste-skill)",
+      "Bash(npx -y skills add https://github.com/Leonxlnx/taste-skill -y -g)",
+      "Read(//c/Users/raed/.agents/skills/high-end-visual-design/**)",
+      "Read(//c/Users/raed/.claude/skills/**)",
+      "Bash(npx -y create-next-app@latest . --ts --tailwind --app --src-dir false --eslint --no-import-alias --use-npm --turbopack --yes)",
+      "Bash(npm install:*)",
+      "Bash(curl -sL \"https://cdn.converty.shop/images/6a35ab6f005b586e4121dbb47ccf516ed695b50979b1e6036a9ed43b03609c21_lg.webp\" -o \"C:/Users/raed/OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique/Desktop/torenza/public/logo.webp\")",
+      "WebFetch(domain:torenza-studio.converty.shop)",
+      "Bash(curl -sL \"https://torenza-studio.converty.shop/\" -A \"Mozilla/5.0\" -o /tmp/torenza.html)",
+      "Read(//tmp/**)",
+      "Bash(curl -sL \"https://api.converty.shop/api/stores/6979229e44e00ba655dea506/products\" -A \"Mozilla/5.0\")",
+      "Bash(curl -sL \"https://api.converty.shop/api/v1/store/torenza-studio/products\" -A \"Mozilla/5.0\")",
+      "Bash(curl -sL \"https://api.converty.shop/api/store/torenza-studio\" -A \"Mozilla/5.0\")",
+      "Bash(curl -sL \"https://cdn.converty.shop/converty-sdk/1.8.8.js\")",
+      "Bash(curl -sL \"https://torenza-studio.converty.shop/api/v1/products\" -H \"x-store: 6979229e44e00ba655dea506\")",
+      "Bash(curl -sL \"https://torenza-studio.converty.shop/api/v1/store\")",
+      "Bash(curl -sL \"https://cdn.converty.shop/images/b147e8550125b03b63883eb1b442fa5d1f04cc899d85e7b0289e0db6c3efc7a9_lg.webp\" -o public/products/torenza-1.webp)",
+      "Bash(curl -sL \"https://cdn.converty.shop/images/6610bfcf214bb5139a3bc4f3842a1373b9045b6ef1598a74a3f7a7654286d7da_lg.webp\" -o public/products/torenza-2.webp)",
+      "Bash(curl -sL \"https://cdn.converty.shop/images/e8984beb3dacde1caf049f05002a3d3a937e6019c7951d7121b3f0c15bf1b7da_lg.webp\" -o public/generated/hero-banner.webp)",
+      "Bash(npm run:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(PORT=4321 npm run dev)",
+      "Bash(curl -sI http://localhost:4321/)",
+      "Bash(jobs -l)",
+      "Bash(netstat -ano)",
+      "WebFetch(domain:www.instagram.com)",
+      "Bash(npx next:*)",
+      "WebFetch(domain:kill-tec.com)",
+      "Bash(ls /tmp/*.jpg /tmp/*.png /tmp/*.webp)",
+      "Read(//c/Users/raed/AppData/Local/Temp/**)",
+      "Bash(ls -lt /tmp/*.png /tmp/*.tmp.png)",
+      "Bash(ls -ltS /tmp/*.png)",
+      "Bash(taskkill //PID 832 //F)"
     ]
   }
 }
