@@ -60,7 +60,7 @@ export function Preloader() {
 
         {/* Brand text */}
         <p style={{ color: "#9c9c9c", fontFamily: "var(--font-heading), monospace", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase" }}>
-          Tunis, Tunisia / 36.8065° N, 10.1815° E
+          Sousse, Tunisia / 35.8256° N, 10.6369° E
         </p>
 
         {/* Enter */}

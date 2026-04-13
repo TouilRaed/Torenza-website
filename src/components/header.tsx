@@ -70,6 +70,7 @@ export function Header() {
                 </div>
               )}
             </div>
+            <Link href="/shop" className="kt-pill text-[8px] px-3 py-1.5">Shop</Link>
             <Link href="/about" className="kt-pill text-[8px] px-3 py-1.5">Info</Link>
           </div>
           <Link href="/cart" className="kt-pill text-[8px] px-3 py-1.5" aria-label="View cart">
@@ -97,6 +98,7 @@ export function Header() {
               </div>
             )}
           </div>
+          <Link href="/shop" className="kt-pill">Shop</Link>
           <Link href="/about" className="kt-pill">Info</Link>
         </div>
 
