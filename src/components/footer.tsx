@@ -77,6 +77,7 @@ export function Footer() {
       <div className="max-w-[140rem] mx-auto px-4 md:px-8 py-4 flex flex-col md:flex-row justify-between gap-2 kt-label text-mute/60">
         <p>© {new Date().getFullYear()} Torenza Studio</p>
         <p>35.8256° N, 10.6369° E</p>
+        <a href="mailto:touilraed@gmail.com" className="text-mute/60 hover:text-mute transition-colors">made by raed</a>
       </div>
     </footer>
   );
