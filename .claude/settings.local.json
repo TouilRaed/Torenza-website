@@ -36,7 +36,10 @@
       "Read(//c/Users/raed/AppData/Local/Temp/**)",
       "Bash(ls -lt /tmp/*.png /tmp/*.tmp.png)",
       "Bash(ls -ltS /tmp/*.png)",
-      "Bash(taskkill //PID 832 //F)"
+      "Bash(taskkill //PID 832 //F)",
+      "Bash(curl -s -w '\\\\nHTTP_STATUS: %{http_code}' -X POST http://localhost:3000/api/order -H 'Content-Type: application/json' -d '{:*)",
+      "Bash(curl -s -w '\\\\nHTTP_STATUS: %{http_code}' -X POST http://localhost:3000/api/order -H 'Content-Type: application/json' -d '')",
+      "Bash(curl -s -w '\\\\nHTTP_STATUS: %{http_code}' -X POST http://localhost:3000/api/order -H 'Content-Type: application/json' -d '{\"items\":[],\"customer\":{\"fullName\":\"A\"}}')"
     ]
   }
 }

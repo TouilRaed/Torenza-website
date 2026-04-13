@@ -17,7 +17,7 @@ export default function AboutPage() {
           </div>
           <div className="rise" style={{ animationDelay: "120ms" }}>
             <p className="text-mute leading-relaxed">
-              Torenza Studio is a small streetwear label based in Tunis. We
+              Torenza Studio is a small streetwear label based in Sousse. We
               design and produce in tight runs — usually under a hundred pieces
               per drop — so every garment gets the attention it deserves.
             </p>
@@ -32,7 +32,7 @@ export default function AboutPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[1px] bg-white/[0.12] mt-[1px]">
           {[
-            ["01", "Design", "Sketched and patterned in-house in Tunis."],
+            ["01", "Design", "Sketched and patterned in-house in Sousse."],
             ["02", "Make", "Cut and sewn in small partner workshops."],
             ["03", "Deliver", "Shipped to your door — paid in cash on arrival."],
           ].map(([n, t, b]) => (
@@ -55,7 +55,7 @@ export default function AboutPage() {
           <div className="space-y-2 text-sm">
             <p className="kt-label text-mute">Reach us</p>
             <p className="text-ink">hello@torenza.studio</p>
-            <p className="text-ink">Tunis, Tunisia</p>
+            <p className="text-ink">Sousse, Tunisia</p>
             <p className="text-mute">Mon — Sat · 10:00 — 18:00</p>
             <p className="pt-2">
               <a

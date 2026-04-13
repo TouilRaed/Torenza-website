@@ -13,9 +13,9 @@ export function Marquee() {
               {[
                 "Torenza",
                 "✦",
-                "Tunis, Tunisia",
+                "Sousse, Tunisia",
                 "✦",
-                "36.8065° N, 10.1815° E",
+                "Torenza forever,",
                 "✦",
                 "Torenza Studio®",
                 "✦",
