@@ -6,6 +6,7 @@ import { Footer } from "../components/footer";
 import { Preloader } from "../components/preloader";
 import { SpinLogo } from "../components/spin-logo";
 import { Marquee } from "../components/marquee";
+import { Analytics } from "@vercel/analytics/next";
 
 const body = Anonymous_Pro({
   variable: "--font-body",
@@ -43,6 +44,7 @@ export default function RootLayout({
         <SpinLogo />
         <main className="flex-1">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
